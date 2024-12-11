@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Firebase Class</title>
+</head>
+<body>
+    <div class="main">  	
+		<input type="checkbox" id="chk" aria-hidden="true">
+
+			<div class="signup">
+				<form>
+					<label for="chk" aria-hidden="true">Sign up</label>
+					<input type="text" name="txt" placeholder="User name" required="">
+					<input id="email_signup" type="email" name="email" placeholder="Email" required="">
+          <!-- <input type="number" name="broj" placeholder="BrojTelefona" required=""> -->
+					<input id="password_signup" type="password" name="pswd" placeholder="Password" required="">
+					<button id="signup_btn">Sign up</button>
+				</form>
+			</div>
+
+			<div class="login">
+				<form>
+					<label for="chk" aria-hidden="true">Login</label>
+					<input id="email_login" type="email" name="email" placeholder="Email" required="">
+					<input id="password_login" type="password" name="pswd" placeholder="Password" required="">
+					<button id="login_btn">Login</button>
+				</form>
+			</div>
+	</div>
+
+
+    <script src="js/app.js" type="module"></script>
+</body>
+</html>
