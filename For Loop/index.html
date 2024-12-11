@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- <h1>For Loop</h1> -->
+
+    <h1 style="text-align: center;">Stop Watch</h1>
+    <div style=  " background-color: black; height: 100%; width: 100%;">
+      <div
+      class="container"
+      style="
+      
+        width: 300px;
+        height: 300px;
+        border: 1px;
+        border-radius: 10px;
+        background: rgba(50,50 , 50, 0.9);
+        margin: auto;
+      "
+    >
+      <div style="display: flex; justify-content: space-around; padding: 20px">
+        <h1 id="min">0</h1>
+        <h1>:</h1>
+        <h1  id="sec">0</h1>
+        <h1>:</h1>
+        <h1 style="color: blue;" id="ms">00</h1>
+      </div>
+      <div style="display: flex; justify-content: space-around; padding: 20px">
+        <h3>Min</h3>
+        <h3>:</h3>
+        <h3>Sec</h3>
+        <h3>:</h3>
+        <h3>MS</h3>
+      </div>
+      <div style="display: flex; justify-content: space-around">
+        <button id="start_btn" onclick="start()" style="font-weight: bold">
+          Start
+        </button>
+        <button
+          onclick="stop()"
+          style="background-color: red; color: aliceblue; font-weight: bold"
+        >
+          Stop
+        </button>
+        <button
+          onclick="reset()"
+          style="background-color: green; color: aliceblue; font-weight: bold"
+        >
+          Reset
+        </button>
+      </div>
+    </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
