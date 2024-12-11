@@ -1,0 +1,16 @@
+#homepage{
+    text-decoration: underline;
+    color: brown;
+    background-color: peru;
+}
+
+h1{
+    text-align: center;
+    margin-top: 10px;
+    
+}
+h2{
+    color: blue;
+    text-decoration: underline;
+    margin-left: 25px;
+    }
