@@ -1,0 +1,1 @@
+# my-all-projects-smit-class
