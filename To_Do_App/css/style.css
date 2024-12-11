@@ -1,0 +1,28 @@
+.list_item{
+    color: blue;
+    margin-bottom: 14px;
+    font-size: 30px;
+
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.parent{
+    padding: 20px;
+    min-height: 400px ;
+    background-color: bisque;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    margin-top: 50px;
+    gap: 10px;
+}
+
+.child{
+    background-color: aqua;
+    height: auto;
+    width: auto;
+}
