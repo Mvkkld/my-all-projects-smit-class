@@ -1,0 +1,354 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body {
+    position: relative;
+    /* font-family: 'Futura PT'; */
+    font-family: "Poppins", sans-serif;
+    background: #fff;
+    overflow-x: hidden;
+}
+.main-navigate {
+    position: fixed;
+    z-index: 1;
+}
+.container {
+    width: 1170px;
+}
+.container-fluid {
+    margin-top: 4rem;
+}
+
+p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    color: #616161;
+}
+
+h6 {
+    color: #000;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    list-style: none;
+}
+
+.img-auto {
+    display: block;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+a,
+button {
+    text-decoration: none !important;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+a:hover,
+button:hover {
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+
+/* start my css */
+
+.navbar-brand span {
+    font-size: 2rem;
+    color: #000;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+    padding: 0;
+    font-size: 1rem;
+    color: #000;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.form-inline ul {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.form-inline ul li a {
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #000;
+    color: #fff;
+    border-radius: 50%;
+    font-size: 1rem;
+}
+header {
+    padding: .03rem 0;
+}
+
+.shirtCard {
+    position: relative;
+}
+
+.shirtCard .shirtContent {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    z-index: 1;
+}
+
+.shirtCard figure {
+    margin: 0;
+    position: relative;
+    z-index: 1;
+}
+
+.shirtCard figure:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: #00000078;
+}
+
+.shirtCard figure img.img-fluid.w-100 {
+    height: 495px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.shirtCard .shirtContent h2 {
+    font-size: 3rem;
+    color: #fff;
+    font-weight: 600;
+    margin: 0 0 40px;
+}
+
+a.btn {
+    background: #FFE;
+    padding: 10px 40px;
+    font-size: 1.125rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #000;
+}
+
+.featureMain {
+    padding: 4rem 0;
+}
+
+.sectionHeading {
+    text-align: center;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 0 0 2.5rem;
+}
+
+.featureCard figure img {
+    height: 363px;
+    object-fit: cover;
+}
+
+
+.featureCard figure {
+    margin: 0;
+}
+
+.featureContent {
+    background: #eeecec;
+    text-align: center;
+    padding: 15px 0 0 0;
+}
+
+
+.featureContent h2 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin: 0 0 14px;
+}
+
+.featureContent span {
+    display: table;
+    margin: auto;
+    font-size: 15px;
+    color: #000;
+    font-weight: 500;
+    margin-bottom: 18px;
+}
+
+.featureContent .btn {
+    width: 100%;
+    background: blue;
+    color: #fff;
+}
+.maidMain {
+    background: url(../images/esgimg.webp) no-repeat top center/ cover;
+    padding: 7rem 0;
+    background-position: center;
+    text-align: center;
+}
+.madeContent h2 {
+    font-size: 3rem;
+    color: #fff;
+    font-weight: bold;
+    margin: 0 0 20px;
+}
+
+.madeContent p {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0 0 40px;
+}
+.footerContent h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 0 0 15px;
+}
+
+.footerContent ul li a {
+    font-size: 15px;
+    color: #000;
+    font-weight: 500;
+    display: inline-block;
+    margin: 0 0 10px;
+}
+
+.foterForm {
+    position: relative;
+}
+
+.foterForm input {
+    width: 100%;
+    height: 50px;
+    font-size: 14px;
+    padding: 0 10px;
+    border: 1px solid #ccc;
+    padding-right: 50px;
+}
+
+.foterForm button {
+    position: absolute;
+    right: 10px;
+    background: transparent;
+    border: 0;
+    top: 0;
+    bottom: 0;
+    font-size: 24px;
+}
+
+footer {
+    padding: 4rem 0;
+}
+.contactMain {
+    padding: 3rem 0;
+}
+
+.openingHours {
+    background: #ccc;
+    padding: 2rem 2rem;
+}
+
+.openingHours i {
+    font-size: 1.3rem;
+    margin: 0 0 15px;
+    width: 50px;
+    height: 50px;
+    background: #000;
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.openingHours h2 {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.openingHours ul li {
+    font-size: 15px;
+    color: #000;
+    font-weight: 500;
+    margin: 10px 0 0;
+}
+form.contactForm {
+    margin-top: 3rem;
+}
+
+form.contactForm label {
+    display: block;
+    font-size: 1rem;
+    color: #000;
+}
+
+form.contactForm input {
+    width: 100%;
+    height: 50px;
+    border: 1px solid #ccc;
+    margin: 0 0 30px;
+}
+
+form.contactForm textarea {
+    width: 100%;
+    height: 150px;
+    margin: 0 0 30px;
+}
+
+form.contactForm .btn {
+    background: #000;
+    width: 100%;
+    color: #fff;
+    padding: 20px 0;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+a.btn:hover
+{
+    background: purple;
+    color: #fff;
+}
+.form-inline ul li a:hover {
+    background: purple;
+    color: #fff;
+}
+form.contactForm .btn:hover {
+    background: purple;
+    color: #fff;
+}
+.main-navigate {
+    position: fixed;
+    z-index: 1;
+    background-color: darkgray;
+    margin-left: 6rem;
+    
+}
+.row.no-gutters {
+    margin-top: 6rem;
+}
+.row.justify-content-center {
+    margin-top: 3rem;
+}
+/* start my css */
