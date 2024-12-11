@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Events</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/flowbite@2.4.1/dist/flowbite.min.css"
+      rel="stylesheet"/>
+  </head>
+
+  <body class="bg-blue-200">
+  
+    <header>
+      <nav
+        class="bg-gray-500 border-gray-200 px-4 lg:px-6 py-2.5 dark:bg-gray-800"
+      >
+        <div
+          class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl"
+        >
+          <a href="https://flowbite.com" class="flex items-center">
+            <img
+              src="https://flowbite.com/docs/images/logo.svg"
+              class="mr-3 h-6 sm:h-9"
+              alt="Flowbite Logo"
+            />
+            <span
+              class="self-center text-xl font-semibold whitespace-nowrap dark:text-white"
+              >My Events</span
+            >
+          </a>
+          <div class="flex items-center lg:order-2">
+            <!-- <a class="mx-4 text-white font-bold" href="/myEvents/index.html"
+              >My Events</a
+            > -->
+            <!-- <a
+              href="/auth/login/index.html"
+              id="login_link"
+              class="text-black dark:text-white hover:bg-gray-50 focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2 dark:hover:bg-gray-700 focus:outline-none dark:focus:ring-gray-800"
+              >Login</a
+            > -->
+            <a class="mx-4 text-white font-bold" href="/createEvent/index.html"
+              >Create Events</a
+            >
+            <a href="/Profile/index.html">
+              <img
+                class="w-16 h-16 p-1 rounded-full ring-2 ring-gray-900 dark:ring-gray-900"
+                src="https://media.istockphoto.com/id/1309328823/photo/headshot-portrait-of-smiling-male-employee-in-office.webp?b=1&s=170667a&w=0&k=20&c=MRMqc79PuLmQfxJ99fTfGqHL07EDHqHLWg0Tb4rPXQc="
+                alt="Bordered avatar"
+                style="display: none"
+                id="user_img"/>
+              </a>
+            <!-- <div>
+              <button class="p-5 font-bold" id="logout_btn">Logout</button>
+            </div> -->
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <div class="grid gap-6 py-24 grid-cols-1 sm:grid-cols-2 lg:grid-cols-1 max-w-auto mt-4 bg-gray-400 border border-gray-900 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 backdrop-filter backdrop-blur-lg bg-opacity-10" 
+    id="events_cards_container">
+ <h1>My Events</h1>  
+</div>
+
+
+   
+    <script src="app.js" type="module"></script>
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@2.4.1/dist/flowbite.min.js"></script>
+  </body>
+</html>
